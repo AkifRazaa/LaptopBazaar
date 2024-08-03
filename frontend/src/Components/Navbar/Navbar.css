@@ -1,0 +1,40 @@
+.nav-login-cart {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.nav-login-cart button {
+  width: 120px;
+  height: 42px;
+  outline: none;
+  border: 1px solid #7a7a7a;
+  border-radius: 50px;
+  color: #515151;
+  font-size: 16px;
+  font-weight: 500;
+  background: white;
+  cursor: pointer;
+}
+
+.nav-login-cart button:active {
+  background: #f3f3f3;
+}
+
+.nav-login-cart img {
+  width: 30px;
+}
+
+.nav-cart-count {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+  margin-left: -40px;
+  border-radius: 9px;
+  font-size: 12px;
+  background: red;
+  color: white;
+}

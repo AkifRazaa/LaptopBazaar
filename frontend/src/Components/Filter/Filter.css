@@ -1,0 +1,42 @@
+.filter {
+  background: linear-gradient(180deg, #ffc107 0%, #dc3545 60%);
+  height: 300px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.form-control,
+.form-select {
+  height: 60px;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.search-icon {
+  font-size: 30px;
+  background-color: #d3d3d3;
+  padding: 8px;
+  margin-left: 10px;
+  border-radius: 7px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-icon {
+    margin-left: 0;
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
